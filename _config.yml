@@ -78,5 +78,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: http://111.231.200.83:3003/.git
+  type:
