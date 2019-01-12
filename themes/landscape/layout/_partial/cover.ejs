@@ -1,0 +1,19 @@
+<header id="cover">
+    <div id="banner" style="background-image: url(cover/<%- (Math.random() * 19).toFixed(0) %>.jpg)"></div>
+    <div id="cover-outer">
+        <div id="cover-inner" class="inner">
+            <h1 id="cover-title">
+                <a href="<%- url_for() %>" id="name">
+                    <%= config.title %>
+                </a>
+            </h1>
+            <nav id="cover-nav">
+                <a id="cover-nav-toggle" class="nav-icon"></a>
+                <% for (var i in theme.menu){ %>
+                <a class="cover-nav-link" href="<%- url_for(theme.menu[i]) %>">
+                    <%= i %></a>
+                <% } %>
+            </nav>
+        </div>
+    </div>
+</header>

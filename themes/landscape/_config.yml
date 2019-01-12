@@ -1,15 +1,17 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  # Home: /
+  文章: /archives
+  相册: /photo
+# rss: /atom.xml
 
 # Content
 excerpt_link: Read More
 fancybox: true
+# archive: 2
 
 # Sidebar
-sidebar: right
+# sidebar: right
 widgets:
 - category
 - tag

@@ -1,0 +1,94 @@
+#cover
+  height: 100%;
+  position: relative
+
+  #banner
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: url(banner-url) center #000
+    background-size: cover
+    z-index: -1
+
+  #cover-title #name
+    display inline-block
+    background: rgba(0,0,0,.73)
+    opacity: 0.6
+    height: 60px
+    line-height: 60px
+    float left
+    font-size: 18px
+    margin-right: 10px
+    padding: 0 20px;
+    &:hover
+      opacity: 1
+
+  #name
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight 100;
+
+
+#header-outer
+  height: 100%
+  position: relative
+
+#header-inner
+  position: relative
+  overflow: hidden
+
+#cover-nav
+  float: left
+
+  $nav-link
+    float: left
+    color: #fff
+    opacity: 0.6
+    text-decoration: none
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+    transition: opacity 0.2s
+    display: block
+    padding: 20px 15px
+    &:hover
+      opacity: 1
+
+  .cover-icon
+    @extend $nav-link
+    font-family: font-icon
+    text-align: center
+    font-size: font-size
+    width: font-size
+    height: font-size
+    padding: 20px
+    position: relative
+    cursor: pointer
+
+  .cover-nav-link
+    @extend $nav-link
+    font-weight: 300
+    letter-spacing: 1px
+    background: rgba(0,0,0,.73)
+    @media mq-mobile
+      display: none
+
+  #cover-nav-toggle
+    display: none
+    &:before
+      content: "\f0c9"
+    @media mq-mobile
+      display: block
+
+#sub-nav
+  float: right
+  margin-right: -15px
+
+#nav-rss-link
+  &:before
+    content: "\f09e"
+
+#nav-search-btn
+  &:before
+    content: "\f002"
