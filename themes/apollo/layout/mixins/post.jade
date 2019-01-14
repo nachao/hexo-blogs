@@ -1,14 +1,15 @@
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
-        span
-            | 字数统计：
-            != wordcount(item.content)
-            | 字
-        span
-            | 阅读时长≈
-            != min2read(item.content)
-            | 分钟
+        if is_post()
+            span
+                | 字数统计：
+                != wordcount(item.content)
+                | 字
+            span
+                | 阅读时长≈
+                != min2read(item.content)
+                | 分钟
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from)!= __('translated')
 
