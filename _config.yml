@@ -79,7 +79,8 @@ theme: apollo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/nachao/nachao.github.io.git
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
