@@ -8,7 +8,7 @@ subtitle:
 description:
 keywords:
 author: nachao
-language: zh
+language: zh-Hans
 timezone:
 
 # URL
@@ -84,12 +84,12 @@ deploy:
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
-post_wordcount:
-  item_text: true
-  wordcount: true         # 单篇 字数统计
-  min2read: true          # 单篇 阅读时长
-  totalcount: false       # 网站 字数统计
-  separated_meta: true
+# post_wordcount:
+#   item_text: true
+#   wordcount: true         # 单篇 字数统计
+#   min2read: true          # 单篇 阅读时长
+#   totalcount: false       # 网站 字数统计
+#   separated_meta: true
 
 # 评论功能
 valine:

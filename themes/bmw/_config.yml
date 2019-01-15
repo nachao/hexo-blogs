@@ -72,13 +72,13 @@ footer:
 # 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
 # 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
 leancloud:
-  appid: Hyq9wkH495DgNHWhDQCOfQSp-gzGzoHsz # 填写您的appid
-  appkey: WaR7nrzhliHj9aVwdQzkdlGd # 填写您的appkey
+  appid: q3OmcGL6fBlFSkK6rDgLCmOh-gzGzoHsz # 填写您的appid
+  appkey: vT7tMvcpLI5yg7DR47gTBUwN # 填写您的appkey
   comment: true # 是否开启评论系统
   timer: true # 是否开启文章统计
 
 # 导航栏头部名称
-nav_name: GODBMW.com 
+nav_name: github,io
 
 # 导航栏选项
 # blank: 是否在新页面打开，默认 false
