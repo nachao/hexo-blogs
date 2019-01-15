@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 那超的博客
+title: nachao'Blogs
 subtitle:
 description:
 keywords:
-author: Chao Na
+author: nachao
 language: zh
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://nacooo.cn
+url: https://nachao.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: bmw
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
